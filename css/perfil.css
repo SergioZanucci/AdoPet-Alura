@@ -62,6 +62,43 @@ body {
     margin: 1em 0;
 }
 
+.conteudo__titulo {
+    color: var(--cinza);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 48px;
+
+}
+
+.foto__texto {
+    /* Foto */
+    top: 324px;
+
+/* H4 */
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    color: var(--azul);
+}
+
+.conteudo img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 165px;
+    top: 356px;
+}
+
+.editar__foto {
+    position: absolute;
+    left: 117px;
+    margin-top: 115px;
+    display: flex;
+    color: var(--coral); 
+}
 
 form {
     display: flex;
@@ -69,15 +106,15 @@ form {
     position: absolute;
     width: 340px;
     left: 28px;
-    top: 265px;
+    top: 465px;
 }
 
 label {
     font-family: var(--fonte-principal);
+    font-weight: 600;
     color: var(--azul);
     line-height: 24px;
     margin: 5px;
-    font-weight: 600;
 }
 
 input {
@@ -92,14 +129,13 @@ input.mensagem {
     height: 150px;
 }
 
-input.enviar {
+input.salvar {
     width: 148px;
     margin: auto;
     margin-top: 30px;
     background-color:  var(--coral);
     color: var(--branco);
-    font-size: 16px;
-    
+    font-size: 16px; 
 }
 
 input::placeholder {
@@ -116,8 +152,12 @@ input::placeholder {
 }
 
 .rodape {
+    position: absolute;
+    top: 960px;
+    width: 100%;
     text-align: center;
     background-color: var(--verde);
     color: var(--branco);
     padding: 3em;
+    top: 995px;
 }
