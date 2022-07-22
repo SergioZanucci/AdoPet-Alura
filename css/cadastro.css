@@ -128,3 +128,16 @@ input::placeholder {
     color: var(--branco);
     padding: 3em;
 }
+
+@media screen and (min-width: 768px) {
+    form {
+        left: 13em;
+    }
+}
+
+@media screen and (min-width: 1444px) {
+    form {
+        left: 35em;
+        top: 19em;
+    }
+}

@@ -161,3 +161,43 @@ input::placeholder {
     padding: 3em;
     top: 995px;
 }
+
+@media screen and (min-width: 768px) {
+    .foto__texto {
+        margin-left: 6em;
+    }
+
+    .conteudo img {
+        margin-left: 11em;
+        top: auto;
+    }
+
+    .editar__foto {
+        margin-left: 11em;
+    }
+
+    form {
+        left: 13em;
+    }
+}
+
+
+@media screen and (min-width: 1444px) {
+    .foto__texto {
+        margin-left: 21em;
+    }
+
+    .conteudo img {
+        margin-left: 32em;
+        top: auto;
+    }
+
+    .editar__foto {
+        margin-left: 32em;
+    }
+
+    form {
+        left: 34em;
+    }
+}
+
