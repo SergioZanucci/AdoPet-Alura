@@ -73,39 +73,37 @@ body {
 }
 
 .foto__texto {
-    /* Foto */
-    top: 324px;
-
 /* H4 */
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    display: flex;
     color: var(--azul);
+    position: absolute;
+    text-align: center;
 }
 
 .conteudo img {
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 165px;
+    left: 15%;
     top: 356px;
 }
 
 .editar__foto {
     position: absolute;
-    left: 117px;
+    left: 12%;
     margin-top: 115px;
     display: flex;
     color: var(--coral); 
 }
 
-form {
+.formulario--perfil {
     display: flex;
     flex-direction: column;
     position: absolute;
     width: 340px;
-    left: 28px;
+    margin-left: 5%;
     top: 465px;
 }
 
@@ -176,7 +174,7 @@ input::placeholder {
         margin-left: 11em;
     }
 
-    form {
+    .formulario--perfil {
         left: 13em;
     }
 }
@@ -196,7 +194,7 @@ input::placeholder {
         margin-left: 32em;
     }
 
-    form {
+    .formulario--perfil {
         left: 34em;
     }
 }

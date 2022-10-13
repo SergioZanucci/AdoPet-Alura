@@ -42,13 +42,13 @@ body {
 }
 
 .conteudo {
+    flex: 1;
+    margin: 0 auto;
+    margin-top: 20px;
     text-align: center;
     width: 70%;
-    margin: 0 auto;
-    flex: 1;
-    margin-top: 20px;
-}
-
+}   
+   
 .conteudo__texto {
     color: var(--azul);
     font-style: normal;
@@ -61,48 +61,47 @@ body {
 .visualizacao {
     /* Vector */
    border-radius: 0px;
-
-   position: absolute;
+   bottom: 40.7%;
    left: 83.89%;
+   position: absolute;
    right: 11.11%;
    top: 48.56%;
-   bottom: 40.7%;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    margin-left: 5%;
     position: absolute;
     width: 340px;
-    left: 28px;
     top: 265px;
 }
 
 label {
-    height: 25px;
-    text-align: center;
-    font-family: var(--fonte-principal);
     color: var(--cinza);
-    line-height: 24px;
+    font-family: var(--fonte-principal);
     margin: 5px;
+    height: 25px;
+    line-height: 24px;
+    text-align: center;  
 }
 
 input {
-    height: 40px;
-    border-radius: 6px;
+    border: 1px solid var(--cinza-claro);
     font-family: var(--fonte-principal);
     font-weight: 600;
-    border: 1px solid var(--cinza-claro)
+    border-radius: 6px;
+    height: 40px; 
 }
 
 input.entrar {
-    width: 148px;
-    margin: auto;
-    margin-top: 30px;
     background-color:  var(--coral);
     color: var(--branco);
+    cursor: pointer;
     font-size: 16px;
-    
+    margin: auto;
+    margin-top: 30px;
+    width: 148px;  
 }
 
 input::placeholder {

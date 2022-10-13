@@ -13,18 +13,18 @@
 }
 
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
 }
 
 body {
     background-image: url("#"), url("/img/Forma1.png"), url("#");
     background-repeat: no-repeat;
     background-position: top right, top left, left 20em;
-    min-height: 100vh;
     font-family: var(--fonte-principal);
-    font-size: 16px;    
+    font-size: 16px;  
+    min-height: 100vh;  
 }
 
 .bg-branco {
@@ -46,11 +46,11 @@ body {
 }
 
 .conteudo {
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
     flex: 1;
+    margin: 0 auto;
     margin-top: 20px;
+    width: 70%;
+    text-align: center;
 }
 
 .conteudo__texto {
@@ -63,29 +63,29 @@ body {
 }
 
 
-form {
+.formulario--mensagem {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    width: 340px;
-    left: 28px;
-    top: 265px;
+    margin-bottom: 2rem;
+    margin-left: 38rem;
+    width: 340px;  
 }
 
 label {
-    font-family: var(--fonte-principal);
     color: var(--azul);
+    font-family: var(--fonte-principal);
+    font-weight: 600;
     line-height: 24px;
     margin: 5px;
-    font-weight: 600;
+    
 }
 
 input {
-    height: 40px;
+    border: 1px solid var(--cinza-claro);
     border-radius: 6px;
     font-family: var(--fonte-principal);
     font-weight: 600;
-    border: 1px solid var(--cinza-claro)
+    height: 40px;   
 }
 
 input.mensagem {
@@ -93,33 +93,35 @@ input.mensagem {
 }
 
 input.enviar {
-    width: 148px;
-    margin: auto;
-    margin-top: 30px;
     background-color:  var(--coral);
     color: var(--branco);
+    cursor: pointer;
     font-size: 16px;
-    
+    margin: auto;
+    margin-top: 30px;
+    width: 148px;
 }
 
 input::placeholder {
-    text-align: center;
     color: var(--cinza-claro);
+    text-align: center;
+    
 }
 
 .login__reset {
+    color: var(--coral);
     height: 34px;
     line-height: 34px;
     letter-spacing: 0px;
     text-align: center;
-    color: var(--coral);
+   
 }
 
 .rodape {
-    text-align: center;
     background-color: var(--verde);
     color: var(--branco);
     padding: 3em;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
